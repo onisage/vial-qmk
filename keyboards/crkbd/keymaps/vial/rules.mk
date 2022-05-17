@@ -1,5 +1,7 @@
-MOUSEKEY_ENABLE     = no      # Mouse keys
-RGBLIGHT_ENABLE     = yes     # Enable WS2812 RGB underlight.
+MOUSEKEY_ENABLE     = yes      # Mouse keys
+RGBLIGHT_ENABLE     = no     # Enable WS2812 RGB underlight.
+RGB_MATRIX_ENABLE = yes
+RGB_MATRIX_DRIVER = WS2812
 VIA_ENABLE          = yes     # Enable VIA
 VIAL_ENABLE         = yes     # Enable VIAL
 OLED_ENABLE         = no
@@ -8,4 +10,5 @@ EXTRAKEY_ENABLE     = yes
 LTO_ENABLE          = yes
 QMK_SETTINGS        = no
 COMBO_ENABLE        = no
-
+ENCODER_ENABLE		= yes
+VIAL_ENCODERS_ENABLE = yes
